@@ -16,13 +16,12 @@ Route::get('/', function()
 	return View::make('uploadform');
 });
 
-Route::get('/ja', function()
-{
-	exit("NEE");
-});
-
-
 Route::post('/', 'UploadController@Process');
 Route::get('/file/{filename}', 'UploadController@ShowFile');
 Route::get('/getfile/{filename}', 'UploadController@RawFile');
 Route::post('/apiupload', 'UploadController@ApiUpload');
+
+Route::get('/test', function()
+{
+	return View::make('test');
+});
