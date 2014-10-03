@@ -54,7 +54,7 @@ return array(
 
 		'mysql' => array(
 			'driver'    => 'mysql',
-			'host'      => 'localhost',
+			'host'      => 'app1.web.deyron.nl',
 			'database'  => 'snap2share',
 			'username'  => 'root',
 			'password'  => 'DeyRon2014!',

@@ -80,6 +80,10 @@
 						<p><b>Original Filename(not shown when shared) :</b><br /> {{$orgfilename}}</p>
 						<p><b>Link to file (page) : </b><br /> <a href="http://www.snap2share.nl/file/{{$filename}}">www.snap2share.nl/file/{{$filename}}</a></p>
 						<p><b>Link to file (for embed) : </b><br /> <a href="http://www.snap2share.nl/getfile/{{$filename}}">www.snap2share.nl/getfile/{{$filename}}</a></p>
+						<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.snap2share.eu/file/{{$filename}}" data-text="I just uploaded a picture to Snap2Share" data-size="large" data-count="none" data-hashtags="snap2share">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+						
+						
 						</div>
 						<small>Copyright <a href="http://www.deyron.nl" target="_blank">Deyron</a></small> 
 						</div>
@@ -95,7 +99,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Snap2Share</h2>
-                <p>Snap2Share is a file-sharing platform without annoying limitations! You don't need an account, don't have so signup somewhere, no newsletters & unlimited views of your files!</p>
+                <p>Snap2Share is a file-sharing platform without annoying limitations! You don't need an account, don't have to signup somewhere, no newsletters & unlimited views of your files!</p>
             </div>
         </div>
     </section>

@@ -97,6 +97,7 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>About Snap2Share</h2>
                 <p>Snap2Share is a file-sharing platform without annoying limitations! You don't need an account, don't have so signup somewhere, no newsletters & unlimited views of your files!</p>
+				<p>We are focussing on speed. We want to deliver files at your PC/Server/Tablet/Phone as fast as possible without waiting. Our cluster is made for blazing fast file hosting!</p>
             </div>
         </div>
     </section>

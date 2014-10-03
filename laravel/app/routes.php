@@ -21,7 +21,4 @@ Route::get('/file/{filename}', 'UploadController@ShowFile');
 Route::get('/getfile/{filename}', 'UploadController@RawFile');
 Route::post('/apiupload', 'UploadController@ApiUpload');
 
-Route::get('/test', function()
-{
-	return View::make('test');
-});
+Route::get('/admin', 'AdminController@ShowFiles');
